@@ -1,5 +1,7 @@
 "use client"
 import React from 'react'
+import Img from 'next/image';
+import imgg from '../assets/Img/gg.jpg'
 
 function Navbar({handleToggle}) {
   return (
@@ -32,7 +34,9 @@ function Navbar({handleToggle}) {
     <div className="dropdown dropdown-end">
       <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
         <div className="w-10 rounded-full">
-          <img alt="Tailwind CSS Navbar component" src="../src/assets/Img/gg.jpg" />
+          <Img src={imgg} alt="Avatar" width={80} height={80} />
+       
+         
         </div>
       </div>
       <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">

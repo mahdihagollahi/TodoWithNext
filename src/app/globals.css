@@ -31,3 +31,37 @@ body {
     text-wrap: balance;
   }
 }
+
+
+[data-theme="light"] {
+  --background-color: white;
+  --background: white;
+  background-image: url('../app/assets/Img/gg.jpg');
+  --text-color: black;
+ 
+}
+body{
+  background: url('../app/assets/Img/gg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+[data-theme="dark"] {
+  --background-color: black;
+  background-image: url('../app/assets/Img/gg.jpg');
+--background: black;
+  --text-color: white;
+  
+ 
+}
+
+
+
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+ 
+}
+
+
