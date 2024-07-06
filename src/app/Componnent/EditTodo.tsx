@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux'
-import { markTodo,deleteTodo , editTodo, Todo  } from '../Redux/todoslice'
+import { markTodo,deleteTodo , editTodo, Todo  } from '../GlobalRedux/feature/todoslice'
 
  interface User {
   todo: Todo;

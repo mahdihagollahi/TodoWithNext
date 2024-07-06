@@ -2,8 +2,8 @@
 import React, { useState } from 'react';
 import EditTodo from './EditTodo';
 import { useDispatch, useSelector } from 'react-redux';
-import { addTodo } from '../Redux/todoslice';
-import { RootState} from '../Redux/store';
+import { addTodo } from '../GlobalRedux/feature/todoslice';
+import { RootState} from '../GlobalRedux/feature/store';
 
 interface user  {
   event : string,
