@@ -17,7 +17,7 @@
   git clone https://github.com/mahdihagollahi/sandoghProject.git
 ```
 
-> to run sandoghProject with npm
+> to run TodoWithNext with npm
 
 ```bash
 cd TodoWithNext
