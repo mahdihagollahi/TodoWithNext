@@ -14,7 +14,7 @@
 > First, clone the project
 
 ```bash
-  git clone https://github.com/mahdihagollahi/sandoghProject.git
+  https://github.com/mahdihagollahi/TodoWithNext.git
 ```
 
 > to run TodoWithNext with npm
